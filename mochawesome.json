@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-12-18T12:31:15.073Z",
+    "end": "2020-12-18T12:31:27.020Z",
+    "duration": 11947,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0d25faa2-0495-4c45-a749-2263e0f35a7e",
+      "title": "",
+      "fullFile": "cypress/integration/search-musics.spec.js",
+      "file": "cypress/integration/search-musics.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "74ecbba2-1296-4f91-9d43-6f08646468ab",
+          "title": "Search artist of brazilian rap",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Sabotage",
+              "fullTitle": "Search artist of brazilian rap Sabotage",
+              "timedOut": null,
+              "duration": 9440,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/assets/search-musics.spec.js/Search artist of brazilian rap -- Sabotage (failed).png\"",
+              "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Sabotage').type('{enter}');\ncy.get('bla').should('have.text', 'bla');",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `bla`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
+                "diff": null
+              },
+              "uuid": "6fca0c58-2234-4b46-89d4-9c36b9c0c8da",
+              "parentUUID": "74ecbba2-1296-4f91-9d43-6f08646468ab",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Snj",
+              "fullTitle": "Search artist of brazilian rap Snj",
+              "timedOut": null,
+              "duration": 2436,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Snj').type('{enter}');",
+              "err": {},
+              "uuid": "6886be76-35a9-42fc-ba9b-6c257b4dc8d2",
+              "parentUUID": "74ecbba2-1296-4f91-9d43-6f08646468ab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6886be76-35a9-42fc-ba9b-6c257b4dc8d2"
+          ],
+          "failures": [
+            "6fca0c58-2234-4b46-89d4-9c36b9c0c8da"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 11876,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reporterEnabled": "mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "test-report/"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
