@@ -1,0 +1,30 @@
+{
+  "name": "poc-test-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.0.1"
+  },
+  "devDependencies": {
+    "@fnando/cpf": "^1.0.2",
+    "chance": "^1.1.7",
+    "cypress-localstorage-commands": "^1.2.5",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "cy:generate:html:report": "npm run cy:merge:reports && npm run cy:create:html:report",
+    "cy:clean:reports": "rm -rf test-report/",
+    "cy:merge:reports": "mochawesome-merge test-report/*.json > test-report/merge.json",
+    "cy:create:html:report": "marge test-report/merge.json -f index -o test-report",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:clean": "npm run cy:clean:reports && npm run cy:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

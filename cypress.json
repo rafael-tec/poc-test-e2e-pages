@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://connect.guiabolso.com.br/#",
+    "experimentalSourceRewriting": true,
+    "watchForFileChanges": false,
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "chromeWebSecurity": false,
+    "testFiles": [
+        "search-musics.spec.js"
+    ],
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "test-report/"
+    },
+    "screenshotsFolder": "test-report/assets"
+}

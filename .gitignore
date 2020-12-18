@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Directories and files reports
+test-report/
+
+# Screenshots of tests
+cypress/screenshots/
