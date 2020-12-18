@@ -17,5 +17,5 @@
         "json": true,
         "reportDir": "test-report/"
     },
-    "screenshotsFolder": "test-report/assets"
+    "screenshotsFolder": "test-report/"
 }
