@@ -35,4 +35,4 @@ Criação de testes end to end para analisar a viabilidade de uso da ferramenta
 
 Foram utilizadas libs do `mochawesome` para geração de relatório com o resultado dos testes em HTML com screenshots (para casos de falha).
 
-É criado um novo relatório no caminho `./poc-test-e2e/test-report/cypress-tests-report.html` a cada execução de script `cy:generate:html:report`
+É criado um novo relatório no caminho `./poc-test-e2e/test-report/index.html` a cada execução de script `cy:generate:html:report`

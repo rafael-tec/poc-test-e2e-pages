@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
-    "baseUrl": "https://connect.guiabolso.com.br/#",
+    "baseUrl": "https://google.com.br",
     "experimentalSourceRewriting": true,
     "watchForFileChanges": false,
     "video": false,
