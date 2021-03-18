@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2020-12-18T12:45:18.582Z",
-    "end": "2020-12-18T12:45:32.201Z",
-    "duration": 13561,
+    "start": "2021-03-18T18:08:35.089Z",
+    "end": "2021-03-18T18:09:38.157Z",
+    "duration": 63015,
     "testsRegistered": 2,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "90f212d5-4812-4e87-b2c6-d38bce067375",
+      "uuid": "94677abb-7aec-47f1-aadc-ceacefcdc801",
       "title": "",
       "fullFile": "cypress/integration/search-musics.spec.js",
       "file": "cypress/integration/search-musics.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6e05ee0b-7d9d-4f2e-84fb-c2069cd6f75c",
+          "uuid": "73848f58-17e8-4925-9ba3-239b2156892c",
           "title": "Search artist of brazilian rap",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Sabotage",
               "fullTitle": "Search artist of brazilian rap Sabotage",
               "timedOut": null,
-              "duration": 10306,
+              "duration": 35699,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -47,12 +47,12 @@
               "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/search-musics.spec.js/Search artist of brazilian rap -- Sabotage (failed).png\"",
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Sabotage').type('{enter}');\ncy.get('bla').should('have.text', 'bla');",
               "err": {
-                "message": "AssertionError: Timed out retrying: Expected to find element: `bla`, but never found it.",
-                "estack": "AssertionError: Timed out retrying: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
+                "message": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
                 "diff": null
               },
-              "uuid": "f3db9805-9b21-4554-969b-96ec33c766c0",
-              "parentUUID": "6e05ee0b-7d9d-4f2e-84fb-c2069cd6f75c",
+              "uuid": "5d39e024-431f-482b-9025-1634517e768d",
+              "parentUUID": "73848f58-17e8-4925-9ba3-239b2156892c",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Snj",
               "fullTitle": "Search artist of brazilian rap Snj",
               "timedOut": null,
-              "duration": 3255,
+              "duration": 27316,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -69,22 +69,22 @@
               "context": null,
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Snj').type('{enter}');",
               "err": {},
-              "uuid": "290d3b9a-c490-4393-87fd-0754c37682df",
-              "parentUUID": "6e05ee0b-7d9d-4f2e-84fb-c2069cd6f75c",
+              "uuid": "1f8c26b1-5458-417c-aea7-f34dff37cea0",
+              "parentUUID": "73848f58-17e8-4925-9ba3-239b2156892c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "290d3b9a-c490-4393-87fd-0754c37682df"
+            "1f8c26b1-5458-417c-aea7-f34dff37cea0"
           ],
           "failures": [
-            "f3db9805-9b21-4554-969b-96ec33c766c0"
+            "5d39e024-431f-482b-9025-1634517e768d"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 13561,
+          "duration": 63015,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
