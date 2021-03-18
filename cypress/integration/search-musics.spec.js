@@ -6,6 +6,7 @@ context('Search artist of brazilian rap', () => {
         cy.visit('https://google.com.br')
         cy.get('.gLFyf').type('Sabotage').type('{enter}')
         cy.get('bla').should('have.text', 'bla')
+        
     })
 
     it('Snj', () => {
