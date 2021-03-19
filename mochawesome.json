@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2021-03-19T02:29:17.468Z",
-    "end": "2021-03-19T02:30:15.286Z",
-    "duration": 57818,
+    "start": "2021-03-19T02:41:48.881Z",
+    "end": "2021-03-19T02:43:04.812Z",
+    "duration": 75931,
     "testsRegistered": 2,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1d88745d-3d11-4bc6-9128-9b4a314e317b",
+      "uuid": "df47a2a7-e749-4ac5-890a-69de32b6ffe7",
       "title": "",
       "fullFile": "cypress/integration/search-musics.spec.js",
       "file": "cypress/integration/search-musics.spec.js",
@@ -27,40 +27,40 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2f50326c-0ecd-4772-a310-c0e3ba3ced74",
-          "title": "Search artist of brazilian rap",
+          "uuid": "93e94b65-2f6e-440f-b26f-30963db6eb34",
+          "title": "search artist of brazilian rap",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Sabotage",
-              "fullTitle": "Search artist of brazilian rap Sabotage",
+              "title": "sabotage",
+              "fullTitle": "search artist of brazilian rap sabotage",
               "timedOut": null,
-              "duration": 34317,
+              "duration": 43487,
               "state": "failed",
               "speed": null,
               "pass": false,
               "fail": true,
               "pending": false,
-              "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/Search artist of brazilian rap -- Sabotage (failed).png\"",
+              "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/search artist of brazilian rap -- sabotage (failed).png\"",
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Sabotage').type('{enter}');\ncy.get('bla').should('have.text', 'bla');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.",
                 "estack": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
                 "diff": null
               },
-              "uuid": "1ba94069-e091-4131-9bfa-248667169720",
-              "parentUUID": "2f50326c-0ecd-4772-a310-c0e3ba3ced74",
+              "uuid": "613956d0-9d09-4e09-a55f-0cec9acb31f9",
+              "parentUUID": "93e94b65-2f6e-440f-b26f-30963db6eb34",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Snj",
-              "fullTitle": "Search artist of brazilian rap Snj",
+              "title": "snj",
+              "fullTitle": "search artist of brazilian rap snj",
               "timedOut": null,
-              "duration": 23454,
+              "duration": 32330,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -69,22 +69,22 @@
               "context": null,
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Snj').type('{enter}');",
               "err": {},
-              "uuid": "9f4df45e-9bd2-4a1d-b855-1a8399b1caab",
-              "parentUUID": "2f50326c-0ecd-4772-a310-c0e3ba3ced74",
+              "uuid": "85f4db5d-65b1-4728-bf2c-d9258faa9e03",
+              "parentUUID": "93e94b65-2f6e-440f-b26f-30963db6eb34",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9f4df45e-9bd2-4a1d-b855-1a8399b1caab"
+            "85f4db5d-65b1-4728-bf2c-d9258faa9e03"
           ],
           "failures": [
-            "1ba94069-e091-4131-9bfa-248667169720"
+            "613956d0-9d09-4e09-a55f-0cec9acb31f9"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 57771,
+          "duration": 75817,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
