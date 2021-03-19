@@ -16,7 +16,7 @@
     "mochawesome-report-generator": "^5.1.0"
   },
   "scripts": {
-    "cy:generate:html:report": "npm run cy:merge:reports && npm run cy:create:html:report",
+    "cy:generate:html:report": "npm run cy:merge:reports && npm run cy:create:html:report && npm run cy:move:screenshots",
     "cy:move:screenshots": "find ./test-report -type f -name '*.png' -exec mv {} ./test-report ';'",
     "cy:clean:reports": "rm -rf test-report/",
     "cy:merge:reports": "mochawesome-merge test-report/*.json > test-report/merge.json",
