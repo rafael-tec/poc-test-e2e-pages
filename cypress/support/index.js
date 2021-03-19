@@ -37,7 +37,7 @@ Cypress.on('test:after:run', (test, runnable) => {
         }
 
         const fullTestName = nameParts.filter(Boolean).join(' -- ')
-        const imageUrl = `${Cypress.config('screenshotsFolder')}/${Cypress.spec.name}/${fullTestName} (failed).png`
+        const imageUrl = `${Cypress.config('screenshotsFolder')}/${fullTestName} (failed).png`
 
         addContext({ test }, imageUrl)
     }
