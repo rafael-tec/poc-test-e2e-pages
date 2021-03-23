@@ -46,6 +46,11 @@ jobs:
       - run: npm run cy:run:clean
         continue-on-error: true
 
+      # Copy screenshots of tests failure
+      - run: mkdir public
+             mkdir public/screenshots
+             find ./test-report -type f -name '*.png' -exec mv {} ./test-report ;
+
       # Generate mochawesome-report
       - run: npm run cy:generate:html:report
 
