@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2021-03-23T02:50:05.405Z",
-    "end": "2021-03-23T02:50:42.540Z",
-    "duration": 37081,
+    "start": "2021-03-23T02:55:18.945Z",
+    "end": "2021-03-23T02:56:26.998Z",
+    "duration": 67983,
     "testsRegistered": 2,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8e9987c0-f6b5-4de8-bc1c-7cce975d1779",
+      "uuid": "bcac0176-d388-47de-ab10-ea90e2cb189a",
       "title": "",
       "fullFile": "cypress/integration/search-musics.spec.js",
       "file": "cypress/integration/search-musics.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "750c4573-60a3-469a-8952-1fbc138cd315",
+          "uuid": "7dd802bb-6e06-4bd3-a8f0-a0dd1dca8ef2",
           "title": "search artist of brazilian rap",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "sabotage",
               "fullTitle": "search artist of brazilian rap sabotage",
               "timedOut": null,
-              "duration": 32237,
+              "duration": 39646,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
                 "diff": null
               },
-              "uuid": "2118cc3b-e3c0-46eb-861f-06c6ebf3bc9e",
-              "parentUUID": "750c4573-60a3-469a-8952-1fbc138cd315",
+              "uuid": "475cd276-94b1-4a3a-a710-caa598d5927a",
+              "parentUUID": "7dd802bb-6e06-4bd3-a8f0-a0dd1dca8ef2",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "snj",
               "fullTitle": "search artist of brazilian rap snj",
               "timedOut": null,
-              "duration": 4844,
+              "duration": 28337,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -69,22 +69,22 @@
               "context": null,
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Snj').type('{enter}');",
               "err": {},
-              "uuid": "a48231b2-8cc1-48a0-b577-b146fc6b9dda",
-              "parentUUID": "750c4573-60a3-469a-8952-1fbc138cd315",
+              "uuid": "42379407-3f35-4b8c-b2b1-b73a3e18d1a6",
+              "parentUUID": "7dd802bb-6e06-4bd3-a8f0-a0dd1dca8ef2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a48231b2-8cc1-48a0-b577-b146fc6b9dda"
+            "42379407-3f35-4b8c-b2b1-b73a3e18d1a6"
           ],
           "failures": [
-            "2118cc3b-e3c0-46eb-861f-06c6ebf3bc9e"
+            "475cd276-94b1-4a3a-a710-caa598d5927a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 37081,
+          "duration": 67983,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
