@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2021-03-22T16:42:02.888Z",
-    "end": "2021-03-22T16:42:43.479Z",
-    "duration": 40459,
+    "start": "2021-03-23T01:49:09.142Z",
+    "end": "2021-03-23T01:49:52.427Z",
+    "duration": 43233,
     "testsRegistered": 2,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "329865d9-f51b-43f4-9a9c-ac061e907e78",
+      "uuid": "11785919-f48e-42ad-9114-e4047f5696cb",
       "title": "",
       "fullFile": "cypress/integration/search-musics.spec.js",
       "file": "cypress/integration/search-musics.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ef3fe06a-8740-4df9-9099-f5c5b6bad0ba",
+          "uuid": "d6e66d3b-edb7-4edb-8f75-01b92ff793a9",
           "title": "search artist of brazilian rap",
           "fullFile": "",
           "file": "",
@@ -38,21 +38,21 @@
               "title": "sabotage",
               "fullTitle": "search artist of brazilian rap sabotage",
               "timedOut": null,
-              "duration": 35899,
+              "duration": 38444,
               "state": "failed",
               "speed": null,
               "pass": false,
               "fail": true,
               "pending": false,
-              "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/search artist of brazilian rap -- sabotage (failed)\"",
+              "context": "\"/home/runner/work/poc-test-e2e-pages/poc-test-e2e-pages/test-report/search artist of brazilian rap -- sabotage (failed).png\"",
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Sabotage').type('{enter}');\ncy.get('bla').should('have.text', 'bla');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.",
                 "estack": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `bla`, but never found it.\n    at Context.eval (https://google.com.br/__cypress/tests?p=cypress/integration/search-musics.spec.js:104:19)",
                 "diff": null
               },
-              "uuid": "c2786d5c-73c7-4586-a327-b2212fd8fe16",
-              "parentUUID": "ef3fe06a-8740-4df9-9099-f5c5b6bad0ba",
+              "uuid": "bace6e7d-5013-4c46-befd-3499046beb74",
+              "parentUUID": "d6e66d3b-edb7-4edb-8f75-01b92ff793a9",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "snj",
               "fullTitle": "search artist of brazilian rap snj",
               "timedOut": null,
-              "duration": 4560,
+              "duration": 4789,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -69,22 +69,22 @@
               "context": null,
               "code": "cy.visit('https://google.com.br');\ncy.get('.gLFyf').type('Snj').type('{enter}');",
               "err": {},
-              "uuid": "c851d942-2562-4bea-a439-94458cd16c74",
-              "parentUUID": "ef3fe06a-8740-4df9-9099-f5c5b6bad0ba",
+              "uuid": "ab3d37bd-5d57-4cc3-a912-ee7fc15eddc0",
+              "parentUUID": "d6e66d3b-edb7-4edb-8f75-01b92ff793a9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c851d942-2562-4bea-a439-94458cd16c74"
+            "ab3d37bd-5d57-4cc3-a912-ee7fc15eddc0"
           ],
           "failures": [
-            "c2786d5c-73c7-4586-a327-b2212fd8fe16"
+            "bace6e7d-5013-4c46-befd-3499046beb74"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 40459,
+          "duration": 43233,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
