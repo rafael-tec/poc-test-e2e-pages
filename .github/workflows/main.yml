@@ -49,7 +49,7 @@ jobs:
       # Copy screenshots of tests failure
       - run: mkdir public
       - run: mkdir public/screenshots
-      - run: find ./test-report -type f -name '*.png' -exec mv {} ./test-report ;
+      - run: find ./test-report -type f -name '*.png' -exec mv {} ./test-report ';'
 
       # Generate mochawesome-report
       - run: npm run cy:generate:html:report
